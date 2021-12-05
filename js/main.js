@@ -41,14 +41,14 @@ window.addEventListener('online', e =>{
 
 
 if(navigator.onLine){
-    console.log('!Estamos online!');
+    console.log('¡Estamos online!');
     buttonStatus.setAttribute('src', 'img/online.png');
     textStatus.innerHTML = "Online";
     frameSearching.setAttribute('class', 'visually-hidden');
     searchSection.removeAttribute('class', 'visually-hidden');
 
   } else {
-    console.log('Estamos offline!');
+    console.log('¡Estamos offline!');
     buttonStatus.setAttribute('src', 'img/offline.png');
     textStatus.innerHTML = "Offline";
     frameSearching.removeAttribute('class');
@@ -66,7 +66,6 @@ function searchMovies(movieName) {
         })
         .then(function(responseJSON) {
             console.log('imprimo JSON', responseJSON);
-            showSpinner();
             // Tomo los resultados para hacer una lista:
             madeList(responseJSON);
             
@@ -212,9 +211,6 @@ function madeList(data){
 
 }
 
-function showSpinner() {
-    spinner.classList.toggle('d-none');
-}
 
 // Función por si el usuario quiere eliminar las películas del storage:
 
