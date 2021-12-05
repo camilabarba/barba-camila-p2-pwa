@@ -10,7 +10,7 @@ body{
 
 #titulo {
     color: white;
-    font-family: Oswald;
+    font-family: 'Oswald', sans-serif;
     font-size: 3.5em;
     text-transform: uppercase;
     font-weight: normal;
@@ -26,7 +26,7 @@ body{
 
 p, label {
     color: white;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
