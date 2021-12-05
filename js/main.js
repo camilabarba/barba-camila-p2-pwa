@@ -104,7 +104,7 @@ function clickSend() {
     // Si escribió algo, puedo mostrarle el resultado de esa búsqueda:
 
     } else {
-
+        showSpinner();
         searchSection.setAttribute('class', 'visually-hidden');        
         searchMovies(input.value);
         showCards.removeAttribute('class');
@@ -198,7 +198,7 @@ function madeList(data){
 
     
     
-    showSpinner();
+    
 
     buttonSaveMovie.addEventListener('click', (e) => {
         
