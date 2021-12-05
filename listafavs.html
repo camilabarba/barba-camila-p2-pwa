@@ -35,6 +35,22 @@
         </ul>
     </header> 
     
+    <section class="container mt-2">
+      <h2 class="visually-hidden">Status</h2>
+      <div class="d-flex justify-content-center">
+        <p class="mx-2 my-auto" id="textStatus"></p>
+        <div class="my-auto">
+        <img src="" alt="Online/offline button" id="buttonStatus" class="">
+       </div>
+      </div>
+      <div id="frameSearching" class="visually-hidden">
+      <picture>
+      <source media="(max-width: 576px)" srcset="img/cat-searching-mobile.gif"> 
+      <img src="img/cat-searching.gif" class="mx-auto d-block img-fluid mt-3">
+      </picture>
+      <p class="alert alert-danger mt-3 col-md-6 mx-auto">Oops! The connection failed and the cat is upset. Make sure you have an active connection (you don't want to make the cat mad, do you?) </p>
+      </div>
+  </section>
     
 
     <main class="mt-5 container mx-auto" id="favMain">
