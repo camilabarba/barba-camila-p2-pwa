@@ -2,7 +2,7 @@
 const API_KEY = "b05c9c2b";
 
 // Declaro mi URL:
-const url = "http://www.omdbapi.com/?apikey="
+const url = "https://www.omdbapi.com/?apikey="
 
 
 
