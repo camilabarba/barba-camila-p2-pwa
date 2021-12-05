@@ -1,0 +1,98 @@
+
+
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #9bc3ff, #9db4f6, #a1a5ec, #a696de, #ac86cf);
+}
+
+#titulo {
+    color: white;
+    font-family: Oswald;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.nav-link, .nav-item {
+    color: white !important;
+}
+
+.active {
+    color:#a696de !important;
+}
+
+p, label {
+    color: white;
+    font-family: Montserrat;
+}
+
+
+form > div {
+    margin-top: 5vh;
+}
+
+#buttonSearch, #controlButtons div a, #saveMovie, #removeMovie, button {
+    border-color: white;
+    color: white;
+}
+
+#name {
+
+    color: #a1a5ec;
+}
+
+#inputVacio {
+    margin-top: 1em;
+    color:red;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.3)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+
+#movieName {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;
+}
+
+span {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #e6e2ff;
+}
+
+ul li {
+    color: white;
+}
+
+#results {
+    background-color: transparent;
+    border-color: white;
+    padding: 1em;
+}
+
+.list-group-item {
+    background-color: transparent !important;
+    color: white;
+}
+
+#textStatus {
+    font-size: 0.8em;
+}
+

@@ -1,0 +1,15 @@
+#form-div {
+    max-width: 50vw;
+}
+
+label {
+    font-size: 1.7em;
+}
+
+#buttonSearch, #name {
+    height: 2.7em;
+}
+
+#results {
+   width: 70vw;
+}
