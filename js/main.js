@@ -66,6 +66,7 @@ function searchMovies(movieName) {
         })
         .then(function(responseJSON) {
             console.log('imprimo JSON', responseJSON);
+            showSpinner();
             // Tomo los resultados para hacer una lista:
             madeList(responseJSON);
             
@@ -104,7 +105,6 @@ function clickSend() {
     // Si escribió algo, puedo mostrarle el resultado de esa búsqueda:
 
     } else {
-        showSpinner();
         searchSection.setAttribute('class', 'visually-hidden');        
         searchMovies(input.value);
         showCards.removeAttribute('class');
